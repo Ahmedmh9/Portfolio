@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #151518;
+    font-family: "Baloo Tamma 2", cursive;
+}
+/* Main Heading Font */
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+.navigation-link {
+    border: 2px solid transparent;
+}
+.navigation-link:hover {
+    text-decoration: node;
+    border-bottom: 2px solid #2be6f3;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    min-height: 100vh;
+   
+}
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1 {
+    font-size: 5rem;
+}
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
+#about {
+    background: #5867da;
+    border-radius: 1.1rem;
+}
+.card {
+    border-bottom: 8px solid #e65f21;
+}
+
+#contact {
+    background-color: #181116;
+}
+
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #ebb507;
+    border-radius: 0.5rem;
+}
+

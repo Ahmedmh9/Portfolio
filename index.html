@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-item-center">
+          <i class="fas fa-briefcase fa-2x text-warning pb-3"></i>
+          <h5 class="text-white d-inline pl-2">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div class="row">
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link">Projects</a>
+            </div>
+            <div class="col-3">
+              <a href="#contact" class="text-white navigation-link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--main container-->
+    <div class="container main-container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello I'm</h2>
+          <h1 class="text-warning m-heading">Mohamed Ahmed</h1>
+          <h2 class="text-white">Web Developer</h2>
+        </div>
+        <div class="col-6">
+          <img src="./assets/img/undraw_profile_pic_ic5t.svg" alt="avatar" />
+        </div>
+      </div>
+    </div>
+<!--about me-->
+    <div id="about" class="container p-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="./assets/img/about_img.svg" class="img-fluid" alt="img about me" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A litte bit about me</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+            cumque <b class="text-warning">incidunt nemo</b> voluptatibus neque eaque voluptatem
+            magnam eos? Facere voluptate reiciendis aspernatur placeat minima
+            tempora. Aliquid, mollitia pariatur. Itaque.
+          </p>
+
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid id
+            obcaecati numquam<b class="text-warning"> molestias aperiam</b> fugiat laudantium. Cupiditate
+            rerum quasi maiores ea est,<b class="text-warning"> quis eum,</b></b> officiis sint eaque,
+            architecto optio fugit?
+          </p>
+        </div>
+      </div>
+    </div>
+<!--project container-->
+    <div id="projects"  class="container mt-3 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/ACTGEN1.PNG" class="card-img-top p-2" alt="web app that help you find ac activity" style="height: 13rem;" >
+            <div class="card-body">
+              <h5 class="card-title">ACTGen</h5>
+              <p class="card-text"> ActGen is a web application that allows Users to generate Activities random or by pre-defined categories, it populating YouTube videos relating to the generated activity that the User can view.</p>
+              <a href="https://delaluz12.github.io/ActGen/" class="btn btn-warning">See project</a>
+              <a href="https://github.com/Ahmedmh9/ActGen">
+                <button class="github-btn"><i class="fab fa-github fa-1x text-dark"></i></button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/weahter1.PNG" class="card-img-top p-2" alt="search the weather of a city" style="height: 13rem;">
+            <div class="card-body">
+              <h5 class="card-title">Weather-Dashboard</h5>
+              <p class="card-text">In this project we had to create an application using a third party Api,when the user searches a city it would give them the conditions on that city and the next 5 days forecast.</p>
+              <a href="https://ahmedmh9.github.io/Weather-Dashboard/" class="btn btn-warning">See project</a>
+              <a href="https://github.com/Ahmedmh9/Weather-Dashboard">
+                <button class="github-btn"><i class="fab fa-github fa-1x text-dark"></i></button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/day planner.png" class="card-img-top p-2" alt="day planner from 9am to 5pm" style="height: 13rem;">
+            <div class="card-body">
+              <h5 class="card-title">Day-Planner</h5>
+              <p class="card-text">this is an application that allows the user to save events, a simple calendar application that allows a user to save events for each hour of the working day.</p>
+              <a href="https://ahmedmh9.github.io/day-Planner-/" class="btn btn-warning">See project</a>
+              <a href="https://github.com/Ahmedmh9/day-Planner-">
+                <button class="github-btn"><i class="fab fa-github fa-1x text-dark"></i></button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--CONTACT container-->
+    <div id="contact" class="container-fluid p-4">
+      <div class="container">
+        <h4 class="text-warning">Contact</h4>
+        <div class="row pt-5">
+          <div class="col-3 media_link btn">
+            <a href="https://www.linkedin.com/in/mohamed-ahmed-613866212/" class="btn btn-warning">profile</a>
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="pt-2 m-0 text-white ">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-item-center">
+                <i class="fab fa-linkedin fa-2x text-warning"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 media_link btn">
+            <a href="https://github.com/Ahmedmh9" class="btn btn-warning">profile</a>
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="pt-2 m-0 text-white ">GitHub</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-item-center">
+                <i class="fab fa-github-square fa-2x text-warning"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 media_link  btn">
+            <a href="mailto:axmedmohamed7@gmail.com" class="btn btn-warning">Send Email</a>
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="pt-2 m-0 text-white ">Gmail</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-item-center">
+                <i class="fas fa-envelope fa-2x text-warning "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>Portfolio:2021 | <Mohamed href="" class="text-white">Mohamed Ahmed</a></h5>
+      </div>
+    </footer>
+  </body>
+</html>
