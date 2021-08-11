@@ -1,6 +1,6 @@
 
 # Portfolio
- This application is my updated Portfolio, with some of the projects i have made so far.
+ This application is my updated Portfolio, with some of the projects i have made so far,
 
 we had show to case the skills we have learn so far in the course.
 
